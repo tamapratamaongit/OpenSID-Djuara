@@ -295,6 +295,22 @@ a:hover{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+	h2.judul-artikel{
+		font-size: 18px;
+		font-weight: bold;
+		margin-top: 20px;
+	}
+
+	h5{
+		font-size: 16px;
+	}
+
+	#pageshare li a{
+		width: 100%;
+	}
+	.headline-berita p{
+		font-size: 16px;
+	}
 	.icon-bar {
 		width: 22px; 
 		height: 2px;
@@ -405,6 +421,8 @@ a:hover{
 		margin-right: 5px;
 		font-size: 10px;
 	}
+
+	
 
 	img#img-slider{
 		height: 200px;

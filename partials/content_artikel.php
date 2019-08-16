@@ -70,14 +70,15 @@
           <?php endif ?>
           <?php endif ?>
 
-          <div class="social-share">
-             <ul id="pageshare" title="Bagikan ke teman anda" class="pagination">
-          <li class="btn btn-sm btn-primary btn-fb" id="fb"><a  style="color:white" name="fb_share" href="http://www.facebook.com/sharer.php?u=<?= current_url() ?>" target="_blank"><i class="fa fa-facebook-square"></i>&nbsp;Share</a></li>
-          <li class="btn btn-sm btn-primary btn-twitter ml-1" id="rt"><a style="color: white;" href="http://twitter.com/share?url=<?=current_url()?>" class="twitter-share-button" target="_blank"><i class="fa fa-twitter"></i>&nbsp;Tweet</a></li>
-          <li class="btn btn-sm btn-primary btn-google-plus ml-1" id="gpshare"><a style="color:white" href="https://plus.google.com/share?url=<?= current_url() ?>" target="_blank"><i class="fa fa-google-plus" style="color:white"></i>&nbsp;Bagikan</a></li>
-          <li class="btn btn-sm btn-primary btn-whatsapp ml-1" id="wa_share"><a style="color:white" href="https://api.whatsapp.com/send?text=<?= current_url() ?>" target="_blank"><i class="fa fa-whatsapp" style="color:white"></i>&nbsp;WhatsApp</a></li>
-        </ul>
+         <div class="row">
+           <div class="col-12">
+          <a class="btn btn-sm btn-primary btn-fb mt-2" id="fb" style="color:white" name="fb_share" href="http://www.facebook.com/sharer.php?u=<?= current_url() ?>" target="_blank"><i class="fa fa-facebook-square"></i>&nbsp;Share</a>
+          <a class="btn btn-sm btn-primary btn-twitter ml-1 mt-2" id="rt" style="color: white;" href="http://twitter.com/share?url=<?=current_url()?>" class="twitter-share-button" target="_blank"><i class="fa fa-twitter"></i>&nbsp;Tweet</a>
+         <a class="btn btn-sm btn-primary btn-google-plus ml-1 mt-2" id="gpshare" style="color:white" href="https://plus.google.com/share?url=<?= current_url() ?>" target="_blank"><i class="fa fa-google-plus" style="color:white"></i>&nbsp;Bagikan</a>
+          <a class="btn btn-sm btn-primary btn-whatsapp mt-2" id="wa_share" style="color:white" href="https://api.whatsapp.com/send?text=<?= current_url() ?>" target="_blank"><i class="fa fa-whatsapp" style="color:white"></i>&nbsp;WhatsApp</a>
           </div>
+           </div>
+         </div>
           <div class="contact_bottom mt-3">
             <?php if(is_array($komentar)): ?>
                <div class="header mb-4">
