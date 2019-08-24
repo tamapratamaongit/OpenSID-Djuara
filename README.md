@@ -6,7 +6,8 @@ Theme untuk aplikasi OpenSID dibuat dengan basis bootstrap 4 . dengan tampilan y
 2. Selanjutnya extract berkas yang telah diunduh dan salin semua isi dari folder hasil extract ke dalam folder desa/themes/ di aplikasi OpenSID. Pastikan membuat dan memberi nama folder djuara sebagai penampung isi berkas tema.
 3. Setting aplikasi OpenSID dan pilih tema desa/djuara untuk web_theme.
 4. Muat ulang laman web dari aplikasi OpenSID untuk melihat perubahannya.
-
+5. Jika artikel tidak tampil silahkan update ke opensid versi terbaru dan lakukan migrasi database .
+6. Jika masih terjadi error atau ada kesulitan bisa langsung hubungi saya via facebook . Jgn lupa add friend dulu biar pesan nya bisa langsung terlihat.
 # Kontribusi
 Jika menemukan masalah atau bug pada tema Djuara silakan buat issue melalui laman Issues dan ceritakan masalah atau bug yang ditemukan
 
